@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate {
     
     // Global Vars
-    var cellContent = ["Apple", "Banana", "Cherry", "Durian"]
+    var cellContent = ["Apple", "Banana", "Cherry", "Durian", "ElderBerry"]
     
     // App Loads View Controller
     override func viewDidLoad() {
