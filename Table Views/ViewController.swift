@@ -26,6 +26,10 @@ class ViewController: UIViewController, UITableViewDelegate {
         
         let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
         
+        cell.textLabel?.text = "Cell text goes here"
+        
+        return cell
+        
     }
 }
 
